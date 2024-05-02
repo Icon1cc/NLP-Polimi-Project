@@ -1,0 +1,46 @@
+{
+  "builder_name": "json",
+  "citation": "",
+  "config_name": "default",
+  "dataset_name": "medical_meadow_medical_flashcards",
+  "dataset_size": 16453987,
+  "description": "",
+  "download_checksums": {
+    "hf://datasets/medalpaca/medical_meadow_medical_flashcards@7597b32036d67c731cb91bae4f49717fcfe5d5f0/medical_meadow_wikidoc_medical_flashcards.json": {
+      "num_bytes": 17693997,
+      "checksum": null
+    }
+  },
+  "download_size": 17693997,
+  "features": {
+    "input": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "output": {
+      "dtype": "string",
+      "_type": "Value"
+    },
+    "instruction": {
+      "dtype": "string",
+      "_type": "Value"
+    }
+  },
+  "homepage": "",
+  "license": "",
+  "size_in_bytes": 34147984,
+  "splits": {
+    "train": {
+      "name": "train",
+      "num_bytes": 16453987,
+      "num_examples": 33955,
+      "dataset_name": "medical_meadow_medical_flashcards"
+    }
+  },
+  "version": {
+    "version_str": "0.0.0",
+    "major": 0,
+    "minor": 0,
+    "patch": 0
+  }
+}
